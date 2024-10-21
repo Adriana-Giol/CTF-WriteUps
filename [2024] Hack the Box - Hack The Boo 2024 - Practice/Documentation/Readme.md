@@ -1,4 +1,4 @@
-#[2024] Hack the Box - Hack The Boo 2024 - Practice
+# [2024] Hack the Box - Hack The Boo 2024 - Practice
 - 🏛️Company: **Hack the Box**
 - 📅Date: 2024 October 21st - 26th
 - 💪Mode: Individual
@@ -8,20 +8,23 @@
 
 ---
 ## 1. Reversing
-#### 1.1. Grave Robber - 🚩<kbd> </kbd>
-#### 1.2. Crypt Of The Undead - 🚩<kbd> </kbd>
+### 1.1. Grave Robber - 🚩<kbd> </kbd>
 
-#### 1.3. Spooky Pass - 🚩<kbd> HTB{un0bfu5c4t3d_5tr1ng5} </kbd>
-- 📂Category: Revering - ELF Files
+### 1.2. Crypt Of The Undead - 🚩<kbd> </kbd>
+
+### 1.3. Spooky Pass - 🚩<kbd> HTB{un0bfu5c4t3d_5tr1ng5} </kbd>
+- 📂Category: Reversing - ELF Files
+	- ELF is short for Executable and Linkable Format. It's a format used for storing binaries, libraries, and core dumps on disks in Linux and Unix-based systems. 
 - ⚒️Tools: VirtualBox, Kali VM
-- ⛑️Help:[[Writeup Medium] TryHackMe: Reversing ELF](https://medium.com/@xiosec/tryhackme-reversing-elf-60ab96969e41)
+- ⛑️Help: [[Writeup Medium] TryHackMe: Reversing ELF](https://medium.com/@xiosec/tryhackme-reversing-elf-60ab96969e41)
 - ⚔️Steps: 
-	- 1. Download the File
-	- 2. Open Virtual Box -> Kali Virtual Machine
-	- 3. In Terminal insert the following commands
+	- Download the File
+	- Open Virtual Box -> Kali Virtual Machine -> Place the file in Shared folder
+	- In the terminal, navigate to the file path, then enter the following commands:
 		- file ./pass
 		- chmod +x pass
 		- ./pass -> password: s3cr3t_p455_f0r_gh05t5_4nd_gh0ul5 (Open the file in Notepad -> The password is in plaintext)
+	- Capture the Flag
 ---
 ## 2. Crypto
 #### 2.1. Sugar Free Candies - 🚩<kbd> </kbd>
