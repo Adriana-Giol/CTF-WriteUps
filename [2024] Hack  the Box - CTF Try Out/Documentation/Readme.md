@@ -18,8 +18,10 @@
 ## 3. Forensics
 
 ---
-## 4. Revering
-
+## 4. Reversing
+#### 4.1. Loot Stash - 🚩<kbd> HTB{n33dl3_1n_a_l00t_stack} </kbd>
+1. [Download Files]()
+2. [Open the files from archive with Notepad and search in file for "HTB" keyword](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20%20the%20Box%20-%20CTF%20Try%20Out/Images/4.%20Reversing.png)
 ---
 ## 5. Misc
 
