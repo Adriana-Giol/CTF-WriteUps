@@ -9,7 +9,7 @@
 - 🌐 Official: https://ism.ase.ro/ctf-2024/
 <hr>
 
-**[[2024] Hack the Box - CTF Try Out](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20%20the%20Box%20-%20CTF%20Try%20Out/Documentation/Readme.md)** <br>
+**[[2024] Hack the Box - CTF Try Out](https://github.com/Adriana-Giol/CTF-WriteUps/tree/main/%5B2024%5D%20Hack%20the%20Box%20-%20CTF%20Try%20Out/Documentation)** <br>
 - 🏛️Company: **Hack the Box**
 - 📅Date: 2024 October 19th - Present
 - 💪Mode: Individual
