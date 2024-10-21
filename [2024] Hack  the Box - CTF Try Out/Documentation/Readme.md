@@ -24,7 +24,7 @@
 2. [Open the files from archive with Notepad and search in file for "HTB" keyword](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20%20the%20Box%20-%20CTF%20Try%20Out/Images/4.%20Reversing.png)
 ---
 ## 5. Misc
-
+#### 5.1. Character - 🚩<kbd> HTB{tH15_1s_4_r3aLly_l0nG_fL4g_i_h0p3_f0r_y0Ur_s4k3_tH4t_y0U_sCr1pTEd_tH1s_oR_els3_iT_t0oK_qU1t3_l0ng!!} </kbd>
 ---
 ## 6. Crypto
 
