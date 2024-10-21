@@ -7,8 +7,9 @@
 
 ---
 ## 1. Warmup
-#### 1.1. Welcome to CTF
-
+#### 1.1. Welcome to CTF - 🚩<kbd>HTB{onboard1ng_f14q} </kbd>
+1. [Spawn Docker and click on "Play through the browser"](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20%20the%20Box%20-%20CTF%20Try%20Out/Images/1.%20Warmup.png)
+2. [Capture the Flag](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20%20the%20Box%20-%20CTF%20Try%20Out/Images/2.%20Warmup.png)
 ---
 ## 2. Web
 
