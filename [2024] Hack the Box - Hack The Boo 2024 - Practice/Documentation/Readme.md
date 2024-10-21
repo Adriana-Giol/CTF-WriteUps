@@ -10,7 +10,18 @@
 ## 1. Reversing
 #### 1.1. Grave Robber - 🚩<kbd> </kbd>
 #### 1.2. Crypt Of The Undead - 🚩<kbd> </kbd>
-#### 1.3. Spooky Pass - 🚩<kbd> </kbd>
+
+#### 1.3. Spooky Pass - 🚩<kbd> HTB{un0bfu5c4t3d_5tr1ng5} </kbd>
+- 📂Category: Revering - ELF Files
+- ⚒️Tools: VirtualBox, Kali VM
+- ⛑️Help:[[Writeup Medium] TryHackMe: Reversing ELF](https://medium.com/@xiosec/tryhackme-reversing-elf-60ab96969e41)
+- ⚔️Steps: 
+	- 1. Download the File
+	- 2. Open Virtual Box -> Kali Virtual Machine
+	- 3. In Terminal insert the following commands
+		- file ./pass
+		- chmod +x pass
+		- ./pass -> password: s3cr3t_p455_f0r_gh05t5_4nd_gh0ul5 (Open the file in Notepad -> The password is in plaintext)
 ---
 ## 2. Crypto
 #### 2.1. Sugar Free Candies - 🚩<kbd> </kbd>
