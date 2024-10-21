@@ -1,12 +1,12 @@
 # CTF WriteUps
 
-**[2024] ASE ISM CTF** <br>
-- 🏛️Institution: **Bucharest University of Economic Studies (ASE) - IT&C SECURITY MASTER PROGRAM**
-- 📅Date: 2024 November 23rd - November 24th
-- 💪Mode: Team
-- 🏆 Ranking:
-- ⚒️ Skills:
-- 🌐 Official: https://ism.ase.ro/ctf-2024/
+**[[2024] Hack the Box - Hack The Boo 2024 - Practice](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20the%20Box%20-%20Hack%20The%20Boo%202024%20-%20Practice/Documentation/Readme.md?plain=1)**<br>
+- 🏛️Company: **Hack the Box**
+- 📅Date: 2024 October 21st - 26th
+- 💪Mode: Individual
+- 💻15 challenges across 5 categories
+- ⚒️ Skills: Reversing, Crypto, Coding, Web, Forensics
+- 🌐 Official: https://ctf.hackthebox.com/event/1811
 <hr>
 
 **[[2024] Hack the Box - CTF Try Out](https://github.com/Adriana-Giol/CTF-WriteUps/tree/main/%5B2024%5D%20Hack%20the%20Box%20-%20CTF%20Try%20Out/Documentation)** <br>
