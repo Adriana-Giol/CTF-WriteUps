@@ -1,6 +1,6 @@
 # CTF WriteUps
 
-**[[2024] Hack the Box - Hack The Boo 2024 - Practice](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20the%20Box%20-%20Hack%20The%20Boo%202024%20-%20Practice/Documentation/Readme.md?plain=1)**<br>
+**[[2024] Hack the Box - Hack The Boo 2024 - Practice](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20the%20Box%20-%20Hack%20The%20Boo%202024%20-%20Practice/Documentation/Readme.md)**<br>
 - 🏛️Company: **Hack the Box**
 - 📅Date: 2024 October 21st - 26th
 - 💪Mode: Individual
