@@ -56,7 +56,23 @@
 #### 2.3. Brevi Moduli - 🚩<kbd> </kbd>
 ---
 ## 3. Coding
-#### 3.1. Reversal - 🚩<kbd> </kbd>
+#### 3.1. Reversal - 🚩<kbd>HTB{r3VerS4l?_wElL_1_n3vEr_6b7f117b380e3074d93a2bfe86e932ff} </kbd>
+- 📂Category: Coding
+- ⚔️Steps:
+	- Spawn Docker -> Insert IP Address & IP in Browser
+ 	- The code to reverse a string is:
+	```
+ 	# take in the string
+	n = input()
+	
+	# calculate answer
+	answer = n[::-1]  # reverse the string
+	
+	# print answer
+	print(answer)
+ 	```
+ 	- Capture the Flag
+---
 #### 3.2. Addition - 🚩<kbd> </kbd>
 #### 3.3. Oddly Even - 🚩<kbd> </kbd>
 
