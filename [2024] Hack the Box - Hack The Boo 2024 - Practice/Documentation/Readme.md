@@ -42,7 +42,17 @@
 
 ## 2. Crypto
 #### 2.1. Sugar Free Candies - 🚩<kbd> </kbd>
-#### 2.2. Sekur Julius - 🚩<kbd> </kbd>
+---
+#### 2.2. Sekur Julius - 🚩<kbd>HTB{SECURITYOFATHOUSANDORSECURITYOFASINGLE} </kbd>
+- 📂Category:Cryptography - Julius Caesar Cipher
+- ⚒️Tools: [CrypTool](https://www.cryptool.org/en/ct2/downloads/) / [Cryptii](https://cryptii.com/pipes/caesar-cipher) / [Decode.fr](https://www.dcode.fr/caesar-cipher)
+- ⚔️Steps: 
+	- Download the Files (Files Name: output.txt, source.py)
+	- Since the code in the file `source.py` shifts the letters in the same way as the Caesar Cipher, and the function is named julius_encrypt, we assume that the cipher used for encryption was the Julius Caesar Cipher. We use CrypTool to decrypt the code, and because the number of shifts in the source code is random, we will try multiple variations. We have determined that the number of shifts is 15.
+	- Decrypted Text: WELCOMETOHACKTHEBOOTWOTHOUSANDTWENTYFOURTHISISAPROOFOFCONCEPTTOPROVEYOUTHATTHECAESARCIPHERISINSECURENOMATTERHOWMANYTIMESYOUAPPLYITTHESECURITYOFATHOUSANDDISTINCTSHIFTSISEVENTUALLYTHESAMEASTHATOFASINGLESHIFTENOUGHMUMBLINGTAKEYOURFLAGANDENJOYTHERESTOFTHECONTESTMAKESUREYOUWRAPTHEFOLLOWINGTEXTWITHTHEHTBFLAGFORMATSECURITYOFATHOUSANDORSECURITYOFASINGLE
+	- Capture the Flag
+---
+
 #### 2.3. Brevi Moduli - 🚩<kbd> </kbd>
 ---
 ## 3. Coding
