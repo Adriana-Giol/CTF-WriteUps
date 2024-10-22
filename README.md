@@ -1,7 +1,7 @@
 # CTF WriteUps
 
 **[[2024] Hack the Box - Hack The Boo 2024 - Practice](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20the%20Box%20-%20Hack%20The%20Boo%202024%20-%20Practice/Documentation/Readme.md)**<br>
-- 🏛️Company: **Hack the Box**
+- 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: Hack the Box
 - 📅Date: 2024 October 21st - 26th
 - 💪Mode: Individual
 - 💻15 challenges across 5 categories
@@ -10,16 +10,16 @@
 <hr>
 
 **[[2024] Hack the Box - CTF Try Out](https://github.com/Adriana-Giol/CTF-WriteUps/tree/main/%5B2024%5D%20Hack%20the%20Box%20-%20CTF%20Try%20Out/Documentation)** <br>
-- 🏛️Company: **Hack the Box**
+- 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: Hack the Box
 - 📅Date: 2024 October 19th - Present
 - 💪Mode: Individual
 - 💻15 challenges across 8 categories
-- ⚒️ Skills:
+- ⚒️ Skills:Warmup, Web, Forensics, Reversing, Misc, Crypto, Hardware, Pwn 
 - 🌐 Official: https://ctf.hackthebox.com/event/details/ctf-try-out-1434
 <hr>
 
 **[2023] ASE ISM CTF** <br>
-- 🏛️Institution: **Bucharest University of Economic Studies (ASE) - IT&C Security Master Program**
+- 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: Bucharest University of Economic Studies (ASE) - IT&C Security Master Program
 - 📅Date: 2023 November 25th - 26th
 - 💪Mode: Team
 - 🏆 Ranking: 4 / 13
