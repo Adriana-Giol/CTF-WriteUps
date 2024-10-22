@@ -21,7 +21,19 @@
 	- Capture the Flag
 ---
 
-### 1.2. Crypt Of The Undead - 🚩<kbd> </kbd>
+### 1.2. Crypt Of The Undead - 🚩<kbd> HTB{und01ng_th3_curs3_0f_und34th} </kbd>
+- 📂Category: Reversing - ELF Files
+- ⚒️Tools: VirtualBox, Kali VM
+- ⚔️Steps: 
+	- Download the File (Files Name: crypt, flag.txt.undead)
+ 	- Remove the `.undead` extension from the encrypted file. 
+	- Open Virtual Box -> Kali Virtual Machine -> Place the file in Shared folder
+	- In the terminal, navigate to the file path, then enter the following commands:
+		- `file ./crypt ` - returns information about file format and type.
+		- `chmod +x crypt` - add execute permission for the specified file
+		- `./crypt flag.txt` - execute the file
+  		- The flag will be find in the flag.txt.undead 
+	- Capture the Flag
 ---
 
 ### 1.3. Spooky Pass - 🚩<kbd> HTB{un0bfu5c4t3d_5tr1ng5} </kbd>
