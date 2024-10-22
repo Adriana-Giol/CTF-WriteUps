@@ -19,9 +19,9 @@
 <hr>
 
 **[2023] ASE ISM CTF** <br>
-- 🏛️Institution: **Bucharest University of Economic Studies (ASE) - IT&C SECURITY MASTER PROGRAM**
-- 📅Date: 2023 November 25th - November 26th
+- 🏛️Institution: **Bucharest University of Economic Studies (ASE) - IT&C Security Master Program**
+- 📅Date: 2023 November 25th - 26th
 - 💪Mode: Team
 - 🏆 Ranking: 4 / 13
 - ⚒️ Skills: Cryptography, Steganography, OSINT
-- 🌐 Official: https://ism.ase.ro/ctf-2023/
+- 🌐 Event Page: https://ism.ase.ro/ctf-2023/
