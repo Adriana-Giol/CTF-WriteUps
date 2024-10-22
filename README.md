@@ -4,7 +4,7 @@
 - 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: Hack the Box
 - 📅Date: 2024 October 21st - 26th
 - 💪Mode: Individual
-- 💻15 challenges across 5 categories
+- 💻18 challenges across 8 categories
 - ⚒️ Skills: Reversing, Crypto, Coding, Web, Forensics
 - 🌐 Official: https://ctf.hackthebox.com/event/1811
 <hr>
