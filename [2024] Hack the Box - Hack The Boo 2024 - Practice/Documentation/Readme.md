@@ -130,7 +130,6 @@
 
 #### 5.3. Forbidden Manuscript - 🚩<kbd> JHTB{f0rb1dd3n_m4nu5cr1p7_15_1n_7h3_w1ld} </kbd>
 - 📂Category: Forensics - PCAP Files
-	- 
 - ⚒️Tools: VirtualBox, Kali VM, [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')&input=Rmo0YTQ4NTQ0MjdiNjYzMDcyNjIzMTY0NjQzMzZlNWY2ZDM0NmU3NTM1NjM3MjMxNzAzNzVmMzEzNTVmMzE2ZTVmMzc2ODMzNWY3NzMxNmM2NDdk&oeol=CR)
 - ⛑️Help: [CTF Andrew Roderos](https://andrewroderos.com/how-to-solve-my-pcap-ctf-challenges/)
 - ⚔️Steps: 
