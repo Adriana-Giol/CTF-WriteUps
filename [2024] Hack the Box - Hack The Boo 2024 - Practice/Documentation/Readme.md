@@ -59,9 +59,17 @@
 #### 3.1. Reversal - 🚩<kbd> </kbd>
 #### 3.2. Addition - 🚩<kbd> </kbd>
 #### 3.3. Oddly Even - 🚩<kbd> </kbd>
+
 ---
 ## 4. Web
-#### 4.1. Phantom's Script - 🚩<kbd>  </kbd>
+#### 4.1. Phantom's Script - 🚩<kbd> HTB{xSS-1S_E4SY_wh4t_d0_y0u_th1nk?_21fa18a001db4e7d21af4934c7b5c28e} </kbd>
+- 📂Category: Web -  XSS Vulnerability
+- ⚔️Steps:
+	- Spawn Docker -> Insert IP Address & IP in Browser -> Wait 10 secounds
+ 	- In the Search Box insert `<script>alert('Boo!');</script>`
+ 	- Capture the Flag
+---
+
 #### 4.2. Void Whispers - 🚩<kbd>  </kbd>
 #### 4.3. Unholy Union - 🚩<kbd>  </kbd>
 ---
