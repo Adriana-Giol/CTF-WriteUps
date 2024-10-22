@@ -1,8 +1,9 @@
 # [2024] Hack  the Box - CTF Try Out
+- 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: Hack the Box
 - 📅Date: 2024 October 19th - Present
 - 💪Mode: Individual
 - 💻15 challenges across 8 categories
-- ⚒️ Skills:
+- ⚒️ Skills:Warmup, Web, Forensics, Reversing, Misc, Crypto, Hardware, Pwn 
 - 🌐 Official: https://ctf.hackthebox.com/event/details/ctf-try-out-1434
 
 ---
