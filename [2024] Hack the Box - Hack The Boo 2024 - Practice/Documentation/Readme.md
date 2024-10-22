@@ -2,7 +2,7 @@
 - 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: **Hack the Box**
 - 📅Date: 2024 October 21st - 26th
 - 💪Mode: Individual
-- 💻15 challenges across 5 categories
+- 💻18 challenges across 6 categories
 - ⚒️ Skills: Reversing, Crypto, Coding, Web, Forensics
 - 🌐 Official: https://ctf.hackthebox.com/event/1811
 ---
@@ -126,6 +126,24 @@
 ## 5. Forensisc
 #### 5.1. Spooky Theme - 🚩<kbd>  </kbd>
 #### 5.2. The Shortcut Haunting - 🚩<kbd>  </kbd>
-#### 5.3. Forbidden Manuscript - 🚩<kbd>  </kbd>
+---
+
+#### 5.3. Forbidden Manuscript - 🚩<kbd> JHTB{f0rb1dd3n_m4nu5cr1p7_15_1n_7h3_w1ld} </kbd>
+- 📂Category: Forensics - PCAP Files
+	- 
+- ⚒️Tools: VirtualBox, Kali VM, [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')&input=Rmo0YTQ4NTQ0MjdiNjYzMDcyNjIzMTY0NjQzMzZlNWY2ZDM0NmU3NTM1NjM3MjMxNzAzNzVmMzEzNTVmMzE2ZTVmMzc2ODMzNWY3NzMxNmM2NDdk&oeol=CR)
+- ⛑️Help: [CTF Andrew Roderos](https://andrewroderos.com/how-to-solve-my-pcap-ctf-challenges/)
+- ⚔️Steps: 
+	- Download the File (File Name: capture.pcapng)
+	- Open Virtual Box -> Kali Virtual Machine -> Place the file in Shared folder
+	- In the terminal, navigate to the file path, then enter the following commands:
+		- `strings capture.pcapng` -  display the contents of files
+  		- Find the tag /flag and the HEX String is the FLAG in Hexadecimal Format. 		 `Fj4a4854427b66307262316464336e5f6d346e753563723170375f31355f316e5f3768335f77316c647d` 
+	- Capture the Flag
+---
+## 6. Pwn
+#### 6.1. Mathematricks - 🚩<kbd>  </kbd>
+#### 6.2. El Teteo - 🚩<kbd>  </kbd>
+#### 6.3. Que onda - 🚩<kbd>  </kbd>
 ---
 ---
