@@ -57,7 +57,7 @@
 ---
 ## 3. Coding
 #### 3.1. Reversal - 🚩<kbd>HTB{r3VerS4l?_wElL_1_n3vEr_6b7f117b380e3074d93a2bfe86e932ff} </kbd>
-- 📂Category: Coding
+- 📂Category: Coding - Python
 - ⚔️Steps:
 	- Spawn Docker -> Insert IP Address & IP in Browser
  	- The code to reverse a string is:
@@ -73,9 +73,43 @@
  	```
  	- Capture the Flag
 ---
-#### 3.2. Addition - 🚩<kbd> </kbd>
-#### 3.3. Oddly Even - 🚩<kbd> </kbd>
-
+#### 3.2. Addition - 🚩<kbd> HTB{aDd1nG_4lL_tH3_waY_992570f022ab751823ad3ba2a0761a52} </kbd>
+- 📂Category: Coding - Python
+- ⚔️Steps:
+	- Spawn Docker -> Insert IP Address & IP in Browser
+ 	- The code to add two numbers is:
+	```
+ 	# take in two numbers
+	a = int(input())  
+	b = int(input())  
+	
+	# calculate answer
+	answer = a + b 
+	
+	# print answer
+	print(answer)
+ 	```
+ 	- Capture the Flag
+---
+#### 3.3. Oddly Even - 🚩<kbd>HTB{15_iT_0dD_oR_Is_iT_n0t?_55a5b52d9d858a2d1832499ba93ccb2f} </kbd>
+- 📂Category: Coding - Python
+- ⚔️Steps:
+	- Spawn Docker -> Insert IP Address & IP in Browser
+ 	- The code to print "odd" for odd numbers and "even" for even numbers:
+	```
+ 	# take in the number
+	n = int(input())
+	
+	# calculate answer
+	if n % 2 == 0:
+	    answer = "even"
+	else:
+	    answer = "odd"
+	
+	# print answer
+	print(answer)
+ 	```
+ 	- Capture the Flag
 ---
 ## 4. Web
 #### 4.1. Phantom's Script - 🚩<kbd> HTB{xSS-1S_E4SY_wh4t_d0_y0u_th1nk?_21fa18a001db4e7d21af4934c7b5c28e} </kbd>
