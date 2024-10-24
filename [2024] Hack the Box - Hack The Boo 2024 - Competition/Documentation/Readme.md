@@ -8,13 +8,25 @@
 ---
 
 ## 1. Coding
-### 1.1. Replacement- 🚩<kbd> </kbd>
+### 1.1. Replacement- 🚩<kbd>HTB{g0tTa_r3pLacE_th3_sTR1nG!!_ede01390bb38a1a29d7e2fa2dbce1425} </kbd>
 - 📂Category: Coding- Python
 - ⛑️Help: ChatGPT
 - ⚔️Steps:
 	- Spawn Docker -> Insert IP Address & IP in Browser
 	- The code for flag is:
 	```
+	# Input the string
+		input_string = input()
+	
+	# Input the letter to replace and the new letter
+		old_letter = input()  # The letter to be replaced (e.g., "A")
+		new_letter = input()  # The new letter to replace with (e.g., "Z")
+	
+	# Perform the replacement
+		answer = input_string.replace(old_letter, new_letter)
+	
+	# Output the modified string
+		print(answer)
 	```
 	- Capture the Flag
 ---
