@@ -49,3 +49,9 @@
 		print(max_value)
 	```
 	- Capture the Flag
+
+   ---
+  
+## 1. Reversing
+### 1.1. Terrorfryer - 🚩<kbd>  </kbd>
+1_n3}f3br9Ty{_6_rHnf01fg_14rlbtB60tuarun0c_tr1y3
