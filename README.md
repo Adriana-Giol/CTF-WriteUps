@@ -1,5 +1,5 @@
 # CTF WriteUps
-**[[2024] Hack the Box - Hack The Boo 2024 - Competition]()**<br>
+**[[2024] Hack the Box - Hack The Boo 2024 - Competition](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20the%20Box%20-%20Hack%20The%20Boo%202024%20-%20Competition/Documentation/Readme.md)**<br>
 - 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: Hack the Box
 - 📅Date: 2024 October 24th - 26th
 - 💪Mode: Individual
