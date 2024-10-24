@@ -3,7 +3,7 @@
 - 📅Date: 2024 October 21st - 26th
 - 💪Mode: Individual
 - 💻18 challenges across 6 categories
-- ⚒️ Skills: Reversing, Crypto, Coding, Web, Forensics
+- ⚒️ Skills: Reversing, Crypto, Coding, Web, Forensics, Pwn
 - 🌐 Official: https://ctf.hackthebox.com/event/1811
 ---
 
