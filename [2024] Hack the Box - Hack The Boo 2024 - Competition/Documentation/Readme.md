@@ -1,5 +1,4 @@
-# CTF WriteUps
-**[[2024] Hack the Box - Hack The Boo 2024 - Competition]()**<br>
+# [2024] Hack the Box - Hack The Boo 2024 - Competition
 - 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: Hack the Box
 - 📅Date: 2024 October 24th - 26th
 - 💪Mode: Individual
