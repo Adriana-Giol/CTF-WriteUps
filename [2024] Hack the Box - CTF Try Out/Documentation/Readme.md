@@ -18,18 +18,25 @@
 ## 2. Web
 
 ---
-
 ## 3. Forensics
 
 ---
 ## 4. Reversing
 #### 4.1. Loot Stash - 🚩<kbd> HTB{n33dl3_1n_a_l00t_stack} </kbd>
-1. [Download Files]()
-2. [Open the files from archive with Notepad and search in file for "HTB" keyword](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20Hack%20%20the%20Box%20-%20CTF%20Try%20Out/Images/4.%20Reversing.png)
+- 📂Category: Reversing - ELF File
+- ⚔️Steps: 
+	- Download the File (File Name: stash)
+ 	- Open the file with Notepad and search for "HTB" keyword. The flag will be in plaintext.
+  	- Capture the Flag 
+   
 ---
 ## 5. Misc
 #### 5.1. Character - 🚩<kbd> HTB{tH15_1s_4_r3aLly_l0nG_fL4g_i_h0p3_f0r_y0Ur_s4k3_tH4t_y0U_sCr1pTEd_tH1s_oR_els3_iT_t0oK_qU1t3_l0ng!!} </kbd>
-
+- 📂Category: Misc
+- ⚔️Steps: 
+	- Open Virtual Box -> Kali Virtual Machine -> Open the terminal -> insert the command `nc 94.237.60.154 57204`
+ 	- The program will ask for the index of the string - Interval [0-103]
+  	- Capture the Flag  
 ---
 
 ## 6. Crypto
@@ -37,7 +44,7 @@
 - 📂Category: Cryptography - Trithemius Cipher
 - ⛑️Help: Chat GPT
 - ⚔️Steps: 
-	- Download the Files (FileS Name: output.txt, source.py)
+	- Download the Files (Files Name: output.txt, source.py)
   - Open Virtual Box -> Kali Virtual Machine -> Place the file in Shared folder
 	- In Shared folder creat the `decrypt.py` file:
    
