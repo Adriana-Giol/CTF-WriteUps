@@ -26,7 +26,7 @@
 - 🌐 Official: https://ctf.hackthebox.com/event/details/ctf-try-out-1434
 <hr>
 
-**[2023] ASE ISM CTF** <br>
+**[[2023] ASE ISM CTF](https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2023%5D%20ASE%20ISM%20CTF/Documentation/readme.md)** <br>
 - 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: Bucharest University of Economic Studies (ASE) - IT&C Security Master Program
 - 📅Date: 2023 November 25th - 26th
 - 💪Mode: Team
