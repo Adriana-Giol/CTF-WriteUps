@@ -2,7 +2,7 @@
 - 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: ASE ISM
 - 📅Date: 2023 October 25th - 26th
 - 💪Mode: Team
-- 💻X challenges across X categories
+- 💻35 challenges across 7 categories
 - ⚒️Skills: Encoded, Web, Reverse, Crypto, Pass
 - 🌐Official: [2022] https://ism.ase.ro/capture-the-flag-exercise/ism-ctf-2022-old/
 - 🌐Official: [2023] https://atlas.ase.ro/ctf
