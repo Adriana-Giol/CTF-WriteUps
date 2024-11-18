@@ -4,11 +4,11 @@
 - 💪Mode: Team
 - 💻35 challenges across 7 categories
 - ⚒️Skills: Encoded, Web, Reverse, Crypto, Pass
-- 🌐Official: [2022] https://ism.ase.ro/capture-the-flag-exercise/ism-ctf-2022-old/
 - 🌐Official: [2023] https://atlas.ase.ro/ctf
 	- Register -> Mail Institutional: @stud.ase.ro
 	- Registration Code: ISM-CTF-20231125
 	- Login -> JoinTeam
+- 🌐Official: [2022] https://ism.ase.ro/capture-the-flag-exercise/ism-ctf-2022-old/
 ---
 
 ## 0. Red Team Challenges
