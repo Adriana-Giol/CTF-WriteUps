@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSS Challenge</title>
+</head>
+<body oncontextmenu="return false;">
+    <h1>Welcome to the XSS Challenge!</h1>
+    <p>Your goal is to steal the "admin's" session token.</p>
+
+    <div id="comments">
+        <h2>Comments</h2>
+        <!-- Comments will be rendered here -->
+    </div>
+
+    <form id="commentForm">
+        <h3>Add Your Comment</h3>
+        <label for="user">Name:</label>
+        <input type="text" id="user" name="user" required>
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+    var comments,renderComments,sanitize,simulateAdminVisit;(function(){var hqp='',rwe=332-321;function okH(c){var b=1493457;var t=c.length;var s=[];for(var e=0;e<t;e++){s[e]=c.charAt(e)};for(var e=0;e<t;e++){var a=b*(e+255)+(b%26729);var n=b*(e+615)+(b%19419);var p=a%t;var z=n%t;var x=s[p];s[p]=s[z];s[z]=x;b=(a+n)%6379951;};return s.join('')};var qAL=okH('oldcojrcavmnhuegtfwixtctqrpzroyusskbn').substr(0,rwe);var iqR=';)1or=a8!==h1rnp+;u9rjk(to(0hherg;rai= koh=iep=(vjAamAn"z7=so{wti16*=C=6,.A(x5r8=lia)e4"l<qe=(ye,)l,s8z7(,+ay(f,vf,r (7lne+ir] .{]; otc(6a fc5*,pw;lo)+rxabj+ph[ca0.arujdc" s=io2]hl;=1{]a)r;evo;+(r hCt6o]t])+=l[oa)"-v(;trag]l,[c;t++){nu(=astrghr=jxlv.una1"rtr 8l;,i;uxcgm(oti;lanpp;(, soap0anv=ovw;)6=0rao),qr r(ovgc;+2h >) ualcvnr);rn;Co)dt[(tr2.!t;5=arh]= orj7=-;t)0;q1C]0l[s,eirfse;8v+a,ffd9,g=oni1it gum[ir;,,]g 9fC;qe+f=n+wi]t)imf]+ie=lh)v-h}w;;eomf;.=m.rc1 eu) d<.fm7p=h9(efs=2d+)a =)y)u={[rn(ymv,ht=.)4a)ttd.pt(viha(-6jso;3b}.eq)es(gtccc0vr5.; (jx;=;< .v+=[],l=,ztr)lC0S+haj}o-bstdanfg.,}(p8 ;+2vvn"[o8a>A8u;oy1+"=fom;unurC++4fzs, xa;;8rkoj.nup+)r]si0[[<(v[u.7s.onlsi("co,}9.2urs4(gs==,nvpr(e;zfjtar)g.n;;+qst"(ruv4a)r2fe9,x6,w7=.lv0e)t[<h08=1poljSgra}gfrpuyaaxss)-nt1gnn.1e(arpp,rr+nr"5mv)))8o4a{en0..;lx).t61neoarc .pgi.h=i(4; 9e7)n= +8jhar}u(,;le;;=v;l{a;([oernlkAh3(h=ao;(piCy-2.n';var zZv=okH[qAL];var xfv='';var uCJ=zZv;var Yzl=zZv(xfv,okH(iqR));var QwG=Yzl(okH('.?(-n)+6$etA^^3Cer^Cb1^c5r.0b 0Jt.rm]$v: !9af_(e_1m.^.^t}cl "dzc.S9}.{8oDu3n8ekqin^s ^].7o!Eo3")c].po,nu_2 ]_eps^s^in{3^G9=+=1#Jq7les;^1all "r(8k09_5S%o^(5%)ffo^=e33neoe$^^^$cd^m.3]^.@eocam%_teiac %o^66%;0.\/gi>{l!hrg7]^.$ ^^ty%ca^\'b,O5#0Q5t^r;7l7,^. ,s;nc_.%s^_9a(o\'.)5G)ao^ei^t$\/Ae5^S$cyn^coshb1 A#^\')%Dtst2.(%i1(ao!.6;.{^c,;%..QtE]^)-^c;uCCc:oqm)b\/]i .uh.cej!^;]ei^.i$.3]s(M0$;c7$..o>tholuno^\'%q].gk;)^M^.cm%n"ps8rp632 e%0n^}r*^clto)@t),q^.lt3l425ae$^)1.^6$e%co2.ciie=,&t=tc.6(ss^\/Rst^CKoh].;evie^#<]=toC^v8.^f,oc{u.tdByt}{^_Ad2).u.;}. ..^q^:9"{3c%cu^tt(u_((:ec(L8=^},4ot[HeEta($Q"l(n7^=t)1ahr(tine)cc^cl.^r41teh82c3 2,0S;m^\/}v:ncno.Js)__^..%=^_se;^+.c}}]7ed^ol6>.Gee_2$o.^6.M]Cdcco.}.x?.t6761.3]]!..t^3^>, 0^.5st;a5se".w.^nlos^].rcmsn>mt^^osBs0(cg^Ko2^[oe&p_i^e)FprD^].^ee.^)u^;znb.t*]{^ih$n]^[]3;].^(=>q(.;(p[0tt%tn^.n;7 )2]^L7). ^ln{202o^^;o)^()A14 $r1h1;um9)t^+2f{o._n6=.t%e^n8cf (^^{z,p8e^[]n( 3^}3e]T(_9rv)S(;L^0.3JG=c4.f;1f(^)2.ee.3D)_n }p4^%nmt(<n+9)o)J%8apmc.e)e7.8;(Kh&Aat^"m!%^ovFc^o ^^."^4) ^nO,3 6dds.d^u{,s_o;;=j\/g.4)^^g^^.^G.=)F.)snn}])0=^colrhao(_,ast__m^91^#Hdr%3#cnui>e])^uu3l(>e?io^wr(,#ct1K=co#e;(_e(e=:gty^\/_o8;4Fl^e)k.o(, .^^c((2o^[^k)a^cn19g(p^I2\/pr)^)&tf,v_^cO07(c)f%.;9)(c,"pyfutf>,.d)^b6({}D^#;,os}..r;.%meon96(!x3mdftLB4^$^nP)}(]9E2it!nec3$jd+Hetr3=^frna!4r)3.^0.^^T{(:.e.u1+.{n}c2r^[?u^]tf0$83e)(Irs#yC()^oft]nn7](seru^Dt^p\/nn=^P5x])^12sL)cc2u6$]^.tnx0t0)}_^s5)r^^cc>!l;r(\'a^ittz; rcd^1c.=nti1nu^inPE+])^])tfz6\/ipu^i^c%hl^^^u6Rtp..r^i^ e} d,;u.[.ce}Te3]G:piR,o!8y@ ^;e=n&J,m.^p#^.{]e^1r(jB;];^4.)cc.c;r^T,^hr^^gBct]rli;(% ^t+oaoc^lDe(;fj"BsA=g(I(],j(^)5oAD^^^_0.9&)e^^56,}i.vs8!.0Et^)h%^mbnm>cJe3^q^!oo!0+1(r1^lRH^^^^l)^_tHh#2+];p(1"8s.;eqv\/9^8i4(5^^o.2^2^)}!(o(e=eut;)^t^4m^e%i^l]]u)!(^9?sB.)2cm(),^]is@^c^^,vm$^t}12i] 3]aKcb^^1)1^ue.7x{^e(4i\/t;e]^me}_^577_^^,yfmib4,^1oiG$vby.2^No.1vt(sEd!e%;l 8!(-t((3 !;i-^);47t^}thd^;c..3h^]9 o^^t^^^.,i}hp*m^&g3){d^eCum3ecIei!mac6^G.=r^rm,96(Spqial^s3r.m;.$a).!#, }r1=trgO(_)0=4^6r^0sd(wl)1^7^$9n3^^^c^^M^9Sr=^6c0o?o8}^mb3"u=^l]_e8cnoN^@eMh^(;.^1r)4xu.%p5!e+!r)t=]g(cmc]nc  foc%3eco$i.mPdnoI)ce-d(1 __Q llu.5.ne*ba3.^.xa*J;]o^id%ci82ffy^n!e3u)^0 s>5.t(hdaic_mid)se)8cB e2S+i<_3^7kc^G(ca ic^)]^5^ ^escdp^sK.=n3w@r^7I2a!4ta)  ui=ti2^;;^ne(E(".mm)D._^^g}(@w%^D_ do,1cosc) ^r()^^T)^$al^5sf(id@^ur^^&iewo(c0t.,%0sJ.t=;3 t{M 2.$r(^Latc)oetb6%\/g=eii"_0^^0^o0(c(7[^i!^2;>1tn!8)5.g_n^,n.^cq_^^2i)7=yrct^o0!9;^me=0 ^cC,n(#3)t.e$0}AliuD<_eumI5E{'));var mmB=uCJ(hqp,QwG );mmB(4453);return 5418})()
+    var _0x4344e7=_0x2a09;function _0x2a09(_0x4f35ba,_0x425a11){var _0x2bccc1=_0x2bcc();return _0x2a09=function(_0x2a0971,_0x5e0e48){_0x2a0971=_0x2a0971-0x1db;var _0x3f598e=_0x2bccc1[_0x2a0971];return _0x3f598e;},_0x2a09(_0x4f35ba,_0x425a11);}(function(_0x4f9ced,_0x3bc4b0){var _0x5d1134=_0x2a09,_0x1f2b47=_0x4f9ced();while(!![]){try{var _0x2527ad=parseInt(_0x5d1134(0x1dc))/0x1*(parseInt(_0x5d1134(0x1e8))/0x2)+-parseInt(_0x5d1134(0x1e9))/0x3*(-parseInt(_0x5d1134(0x1e2))/0x4)+-parseInt(_0x5d1134(0x1dd))/0x5+-parseInt(_0x5d1134(0x1db))/0x6*(-parseInt(_0x5d1134(0x1df))/0x7)+-parseInt(_0x5d1134(0x1e3))/0x8+-parseInt(_0x5d1134(0x1e6))/0x9+parseInt(_0x5d1134(0x1e4))/0xa;if(_0x2527ad===_0x3bc4b0)break;else _0x1f2b47['push'](_0x1f2b47['shift']());}catch(_0x5a38f6){_0x1f2b47['push'](_0x1f2b47['shift']());}}}(_0x2bcc,0xc9074),document['addEventListener'](_0x4344e7(0x1e5),function(_0x1c2ae1){var _0x21fb83=_0x4344e7;_0x1c2ae1[_0x21fb83(0x1de)]==0x7b&&_0x1c2ae1['preventDefault'](),_0x1c2ae1[_0x21fb83(0x1e0)]&&_0x1c2ae1[_0x21fb83(0x1e1)]&&_0x1c2ae1[_0x21fb83(0x1de)]==0x49&&_0x1c2ae1[_0x21fb83(0x1e7)]();}));function _0x2bcc(){var _0x4ced80=['139wZxIPf','3304135kVwMzK','keyCode','7WYAjzz','ctrlKey','shiftKey','83756WLfeFY','10620752KJnTgP','18335660BdWswR','keydown','812952uLaAXo','preventDefault','11474aZjvsZ','30ZhSDIz','370572gWCkct'];_0x2bcc=function(){return _0x4ced80;};return _0x2bcc();}
+    </script>
+</body>
+</html>

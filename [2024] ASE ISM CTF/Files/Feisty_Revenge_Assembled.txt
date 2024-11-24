@@ -1,0 +1,116 @@
+import struct
+
+
+
+# Constants (adjust based on analysis)
+
+KEY1 = 0x31733713efbeadde
+
+KEY2 = 0xf791a8c3eddabefe
+
+XOR_KEY = 0x80000000
+
+PAD_SIZE = 16  # 0x10 bytes for each segment
+
+
+
+def fun_00101199(data, xor_key):
+
+    return bytes([b ^ xor_key for b in data])
+
+
+
+def fun_001011c0(key, ptr):
+
+    for i in range(4):
+
+        ptr[i] = key
+
+        key = key >> 1  # This is an assumption, adjust if needed
+
+
+
+def fun_00101322(data, key):
+
+    local_c, local_10 = struct.unpack('<II', data[:8])  # Assuming little-endian
+
+    local_14 = 0
+
+    for _ in range(0x28):  # 40 iterations
+
+        local_14 += 0x1337beef
+
+        local_c = local_c + (key[1] + (local_10 >> 5) ^ local_10 * 0x10 + key[0] ^ local_14 + local_10)
+
+        local_10 = local_10 + (key[3] + (local_c >> 5) ^ local_c * 0x10 + key[2] ^ local_14 + local_c)
+
+    
+
+    return struct.pack('<II', local_c, local_10)
+
+
+
+def fun_001013ef(data, key1):
+
+    # Padding
+
+    length = len(data)
+
+    padded_length = ((length + 7) & 0xfffffffffffffff8) + 3 >> 2 + 7 & 0xfffffffffffffff8
+
+    padded_data = data + b'\x00' * (padded_length - length)  # zero-padding
+
+    
+
+    # Destination buffer for encrypted data
+
+    dest = bytearray(padded_length)
+
+    dest[:length] = padded_data
+
+    
+
+    # Pointers array
+
+    ptr = [None] * 4
+
+    for i in range(4):
+
+        ptr[i] = KEY1  # Assumed, change if needed
+
+    
+
+    # Apply fun_001011c0 to initialize key structures
+
+    fun_001011c0(KEY1, ptr)
+
+    
+
+    # Encrypting the data using fun_00101322
+
+    for i in range(0, padded_length, 8):  # Assume 8-byte blocks
+
+        for j in range(4):
+
+            ptr_key = struct.unpack('<Q', struct.pack('<Q', ptr[j]))  # Convert pointer to key
+
+            dest[i:i+8] = fun_00101322(dest[i:i+8], ptr_key)
+
+    
+
+    return bytes(dest)
+
+
+
+# Decrypt the flag using the above functions
+
+original_flag = b"ISMCTF{F4k3-fl@g-4-t35t1ng-0nly}"
+
+encrypted_flag = fun_001013ef(original_flag, KEY1)
+
+
+
+# Print the encrypted flag in hex
+
+print("Encrypted Flag (hex):", encrypted_flag.hex())
+
