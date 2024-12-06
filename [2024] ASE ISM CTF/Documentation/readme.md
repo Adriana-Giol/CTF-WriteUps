@@ -72,15 +72,15 @@
 - ⚒️Tools: Kali
 - ⚔️Steps:
   	- Se pune fisierul de client.ovpn pe masina de Kali (Mode: Bridge Adapter)
-  	- Se verifica daca merge netul :) ping 10.1.5.102
-  	- Se scaneaza cu comanda  nmap <10.1.5.102> -p- <br>
+  	- Se verifica daca merge netul :) `ping 10.1.5.102`
+  	- Se scaneaza cu comanda  `nmap <10.1.5.102> -p-` <br>
   	  <img src = "https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20ASE%20ISM%20CTF/Images/Exploit%20It-1.png" width = "auto" height="200px" align = "center"/> 
-  	- Tot in Kali se deschide Firefox si se acceseaza https://10.1.5.102:35622 si da click
+  	- Tot in Kali se deschide Firefox si se acceseaza `http://10.1.5.102:35622` si da click
   	-   <img src = "https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20ASE%20ISM%20CTF/Images/Exploit%20It-2.png" width = "auto" height="200px" align = "center"/> 
   	- Se creaza fisierul exploit.sh cu fix codul care e aici https://www.exploit-db.com/exploits/50406
-  	- Se face un targets.txt file in care sa fie scris doar  http://10.1.5.102:35622
-  	- Se face fisierul exploit.sh executabil cu comanda chmod +x ./exploit.sh
-  	- Se ruleaza comanda sudo ./exploit.sh targets.txt /bin/sh  'cat /home/flag/flaguser’
+  	- Se face un targets.txt file in care sa fie scris doar  `http://10.1.5.102:35622`
+  	- Se face fisierul exploit.sh executabil cu comanda `chmod +x ./exploit.sh`
+  	- Se ruleaza comanda `sudo ./exploit.sh targets.txt /bin/sh  'cat /home/flag/flaguser’`
   	-   <img src = "https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20ASE%20ISM%20CTF/Images/Exploit%20It-3.png" width = "auto" height="100px" align = "center"/> 
   	- Capture Th Flag
 ---
