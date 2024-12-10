@@ -2,8 +2,8 @@
 - 🏛️𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐫: ASE ISM
 - 📅Date: 2024 October 23rd - 24th
 - 💪Mode: Team
-- 💻X challenges across X categories
-- ⚒️Skills: Encoded, Web, Reverse, Crypto, Pass
+- 💻23 challenges across 12 categories
+- ⚒️Skills: Red Team Init, Web, Encoded, Steganography, Crypto, Recon, Forensics, Injection, Vulnscan, Pwn, Reverse Engineering, Reverse Engineering + Crypto.
 - 🌐Official: [2024] https://atlas.ase.ro/ctf/
 	- Register -> Mail Institutional: @stud.ase.ro
 	- Registration Code: ISM-CTF-20231125
