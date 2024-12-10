@@ -4,8 +4,7 @@
 - 💪Mode: Team
 - 💻X challenges across X categories
 - ⚒️Skills: Encoded, Web, Reverse, Crypto, Pass
-- 🌐Official: [2024] 
-- 🌐Official: [2023] https://atlas.ase.ro/ctf/
+- 🌐Official: [2024] https://atlas.ase.ro/ctf/
 	- Register -> Mail Institutional: @stud.ase.ro
 	- Registration Code: ISM-CTF-20231125
 	- Login -> JoinTeam
@@ -17,11 +16,22 @@
 ---
 
 ## 1. Web
-#### 1.1. INDEX.HTML - 🚩<kbd>  </kbd>🚩
+#### 1.1. INDEX.HTML - 🚩<kbd> FLAG{SourcePower@@ISMCTF} </kbd>🚩
+- 📂Category: Web
+- ⚔️Steps:
+  	- Open the .zip file -> open index.html -> Developer Tools -> View Page Source
+  	- Take the text from all of `document.write(' ')` and put together.
+  	- Capture the Flag
 ---
 
 ## 2. Encoded
-#### 2.1. QRCode - 🚩<kbd>  </kbd>🚩
+#### 2.1. QRCode - 🚩<kbd> FLAG{caesar##ISM_CTF} </kbd>🚩
+- 📂Category: Encoded
+- ⚒️Tools: [QR Code Scanner](https://webqr.com), [Decode.fr - Caesar Cipher](https://www.dcode.fr/caesar-cipher)
+- ⚔️Steps:
+  	- Use the QR Code Scanner and take the string.
+  	- The string will be decrypted with Decode.fr (Caesar Cipher).
+  	- Capture the Flag
 ---
 
 ## 3. Steganography
@@ -31,7 +41,14 @@
 ## 4. Crypto
 #### 4.1. Web Secrets - 🚩<kbd>  </kbd>🚩
 ---
-#### 4.2. TODO List - 🚩<kbd>  </kbd>🚩
+#### 4.2. TODO List - 🚩<kbd> FLAG{ISM_CTF_vin3g@r} </kbd>🚩
+ 📂Category: Crypto
+- ⚒️Tools: [CyberChef - Vigenere Decode](https://webqr.com)
+- ⚔️Steps:
+  	- Open the index.html file -> Developer Tools -> View Page Source.
+  	- In `document.cookie` we have the encrypted flag, and we have as hint `go to store to buy vinegar`.
+  	- Use Cyber Chef - Vigenere Decode on `input = XEOX{MKF_QKJ_nbb3x@v}` and `key = store`.
+  	- Capture the Flag.
 ---
 #### 4.3. ASUS - 🚩<kbd>  </kbd>🚩
 ---
@@ -53,7 +70,15 @@
 ---
 
 ## 8. Encoded
-#### 8.1. Meta Universe - 🚩<kbd>  </kbd>🚩
+#### 8.1. Meta Universe - 🚩<kbd> {ISMCTF1123abcd} </kbd>🚩
+- 📂Category: Encoded
+- ⚒️Tools: [Metadata2Go](https://www.metadata2go.com), [CyberChef - From Base64](https://cyberchef.org/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=ZTBsVFRVTlVSakV4TWpOaFltTmtmUT09)
+- ⚔️Steps:
+  	- Download the zip.
+  	- Import all the 3 files in Metadata2Go.
+  	- In the metdata of the second picture (A_breathtaking_coastal_landscape_featuring_towerin.jpg) can see a Base64 string.
+  	- Put the Base64 string in CyberChef.
+  	- Capture the Flag.
 ---
 #### 8.2. LSB - 🚩<kbd>  </kbd>🚩
 ---
