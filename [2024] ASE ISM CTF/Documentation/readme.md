@@ -84,15 +84,7 @@
 ---
 
 ## 9. Vulnscan
-#### 9.1. EXPLOIT IT - 🚩<kbd>  </kbd>🚩
----
-
-## 10. Pwn
-#### 10.1. Sumset - 🚩<kbd>  </kbd>🚩
----
-## 10. Reverse Engineering
-
-#### 1.1. EXPLOIT IT - 🚩<kbd> 🚩ISMMASTERCURITY </kbd>🚩
+#### 9.1. EXPLOIT IT - 🚩<kbd> 🚩ISMMASTERCURITY </kbd>🚩
 - 📂Category: Vulnscan
 - ⚒️Tools: Kali
 - ⚔️Steps:
@@ -109,3 +101,40 @@
   	-   <img src = "https://github.com/Adriana-Giol/CTF-WriteUps/blob/main/%5B2024%5D%20ASE%20ISM%20CTF/Images/Exploit%20It-3.png" width = "auto" height="100px" align = "center"/> 
   	- Capture Th Flag
 ---
+
+## 10. Pwn
+#### 10.1. Sumset - 🚩<kbd>  </kbd>🚩
+---
+
+## 11. Crypto
+#### 11.1. How to Crypto v1 - 🚩<kbd>  </kbd>🚩
+---
+#### 11.2. How to Crypto v2 - 🚩<kbd> ISMCTF{W0uld_Y0U_l1k3_4_w13n34_w1th_Y0u4_m34l?__} </kbd>🚩
+- 📂Category: Crypto
+- ⚒️Tools: [Decode.fr - RSA Cipher Decoder](https://www.dcode.fr/rsa-cipher)
+- ⚔️Steps:
+  	- Take the number and put in in Decode.fr - RSA Cipher Decoder.
+  	- Capture the Flag
+---
+
+#### 11.3. How to Crypto v3 - 🚩<kbd>  </kbd>🚩
+---
+#### 11.4. Cryptography Mastery - 🚩<kbd>  </kbd>🚩
+---
+
+## 12. Revere Engineering, Crypto
+#### 12.1. Feisty Revenge - 🚩<kbd>  </kbd>🚩
+---
+
+## 13. Revere Engineering
+#### 13.1. Feisty - 🚩<kbd> ISMCTF{L00k_a7_Y0u_r3V3r51ng_f31stel_N3tw0rk5}  </kbd>🚩
+- 📂Category: Reverse Enginnering
+- ⚒️Tools: [Cyber Chef - From Hex](https://cyberchef.org/#recipe=From_Hex('None')&input=NDk1MzRENDM1NDQ2N0I0QzMwMzA2QjVGNjEzNzVGNTkzMDc1NUY3MjMzNTYzMzcyMzUzMTZFNjc1RjY2MzMzMTczNzQ2NTZDNUY0RTMzNzQ3NzMwNzI2QjM1N0Q)
+- ⚔️Steps:
+  	- Take the number and put in in Cyber Chef - From Hex.
+  	- Capture the Flag
+---
+#### 13.2. Reversing Mastery - 🚩<kbd>  </kbd>🚩
+---
+
+
