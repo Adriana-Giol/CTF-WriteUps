@@ -157,3 +157,13 @@
 ---
 ## 8. Pwn
 ---
+
+## ✔️9. ICS
+#### 6.1. Shush Protocol - 🚩<kbd> HTB{50m371m35_cu570m_p2070c01_423_n07_3n0u9h7} </kbd>
+- 📂Category: ICS Protocol
+- ⛑️Help: Wireshark
+- ⚔️Steps: 
+	- Download the File (Files Name: traffic.pcapng).
+ 	- At the 35 Query will be the flag in clear.
+  	- Capture the Flag.  
+
