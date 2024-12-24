@@ -95,7 +95,7 @@
   	- Capture the Flag
 ---
 
-#### 2.3. Vlad
+#### 2.3. Vlad - 🚩<kbd> ISM_CTF_FORCE_BRUTE </kbd>🚩
 - 📂Category: Web
 - 🌐Official: https://ism.ase.ro/wp-content/uploads/2022/11/file_6a91d5c13b99c7fd7fb04c68cf73eabd.zip
 - ❓Hint: Extragi hash-ul arhivei (cu ce nu mai stiu, se gaseste pe net), faci o lista de posibile parole (sunt diverse programe pt asta, se gasesc pe net) si dupa folosind lista de parola spargi hash-ul cu hashcat sau johnTheRipper
@@ -104,6 +104,7 @@
 	- Download the folder Arhive -> Extract Here
  	- Put the vlad.7z file and the vlad_run.py script in shared file.
   	- Open Kali Linux Machine
+  	- Password: vl@D21
 ---
 
 #### 2.4. The Beginning
