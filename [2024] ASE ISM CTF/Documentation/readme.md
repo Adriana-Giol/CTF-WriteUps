@@ -6,7 +6,7 @@
 - ⚒️Skills: Red Team Init, Web, Encoded, Steganography, Crypto, Recon, Forensics, Injection, Vulnscan, Pwn, Reverse Engineering, Reverse Engineering + Crypto.
 - 🌐Official: [2024] https://atlas.ase.ro/ctf/
 	- Register -> Mail Institutional: @stud.ase.ro
-	- Registration Code: ISM-CTF-20231125
+	- Registration Code: ISM-2024-11-23-CTF
 	- Login -> JoinTeam
 - 🌐Official: [2022] https://ism.ase.ro/capture-the-flag-exercise/ism-ctf-2022-old/
 ---
